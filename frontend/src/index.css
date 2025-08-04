@@ -1,0 +1,77 @@
+:root {
+  
+  --color-bg-dark: #1e1e1e;
+  --color-bg-light: #ffffff;
+  --color-text-dark: #ffffff;
+  --color-text-light: #212121;
+  --color-primary: #646cff;
+  --color-primary-hover: #535bf2;
+  --color-button-bg: #1a1a1a;
+  --color-button-hover-border: #646cff;
+
+  
+  --font-base: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-size-base: 1rem;
+  --font-weight-normal: 400;
+  --font-weight-bold: 500;
+  --border-radius: 8px;
+  --transition-fast: 0.25s;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  font-family: var(--font-base);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-normal);
+  line-height: 1.5;
+  color: var(--color-text-dark);
+  background-color: var(--color-bg-dark);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: var(--font-weight-bold);
+  transition: color var(--transition-fast);
+}
+
+a:hover {
+  color: var(--color-primary-hover);
+}
+
+h1 {
+  font-size: 3.2rem;
+  line-height: 1.1;
+}
+
+button {
+  border: 1px solid transparent;
+  border-radius: var(--border-radius);
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: var(--font-weight-bold);
+  font-family: inherit;
+  background-color: var(--color-button-bg);
+  color: var(--color-text-dark);
+  cursor: pointer;
+  transition: border-color var(--transition-fast), background-color var(--transition-fast);
+}
+
+button:hover {
+  border-color: var(--color-button-hover-border);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+

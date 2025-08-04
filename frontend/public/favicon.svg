@@ -1,0 +1,25 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo preto -->
+  <rect width="64" height="64" fill="#000000"/>
+
+  <!-- Cabeça do robô -->
+  <g fill="#ffffff">
+    <!-- Cabeça com cantos arredondados -->
+    <rect x="12" y="12" width="40" height="28" rx="6" ry="6"/>
+    
+    <!-- Orelhas -->
+    <rect x="6" y="20" width="6" height="12" rx="3"/>
+    <rect x="52" y="20" width="6" height="12" rx="3"/>
+    
+    <!-- Corpo -->
+    <rect x="20" y="40" width="24" height="10" rx="5"/>
+
+    <!-- Antena -->
+    <line x1="32" y1="6" x2="32" y2="12" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="32" cy="6" r="3" fill="#ffffff"/>
+  </g>
+
+  <!-- Letra C -->
+  <text x="32" y="30" text-anchor="middle" dominant-baseline="middle" 
+        font-size="20" font-family="Arial, sans-serif" fill="#000000" font-weight="bold">C</text>
+</svg>

@@ -1,0 +1,31 @@
+.bubble {
+  max-width: 70%;
+  padding: 0.75rem 1rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  line-height: 1.4;
+  word-break: break-word;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.userBubble {
+  background-color: #5e35b1; /* Roxo consistente com chat */
+  color: #fff;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+
+.botBubble {
+  background-color: #ffd54f; 
+  color: #212121;
+  align-self: flex-start;
+  margin-right: auto;
+}
+
+.bubbleWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; 
+  margin-bottom: 0.1rem;
+}
