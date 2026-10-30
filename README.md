@@ -114,10 +114,3 @@ Frontend disponível em: `http://localhost:5173`
  juniorbio20@gmail.com  
  [LinkedIn](https://www.linkedin.com/in/juniorcamposdev/)  
  [GitHub](https://github.com/Makiikoo)
-
----
-
-##  Aviso
-
-**Nunca inclua sua chave da OpenAI diretamente no código.**  
-Utilize sempre arquivos de configuração ignorados no `.gitignore`.
