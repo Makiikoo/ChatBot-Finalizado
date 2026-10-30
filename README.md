@@ -40,21 +40,7 @@ A chave de API é usada no backend com `HttpClient` para se comunicar com o serv
 }
 ```
 
-### 2. Atualize o seu `Program.cs` para ler a configuração:
 
-> Já está implementado no serviço `OpenAIService.cs`
-
-### 3. Adicione ao `.gitignore`:
-
-Crie um arquivo `.gitignore` na raiz do projeto backend e adicione:
-
-```
-appsettings.json
-```
-
-Isso impede que a chave da API seja exposta ao subir o código no GitHub.
-
----
 
 ##  Tecnologias Utilizadas
 
