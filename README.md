@@ -67,7 +67,7 @@ A chave de API é usada no backend com `HttpClient` para se comunicar com o serv
 ###  Clonar o repositório
 
 ```bash
-git clone https://github.com/Makiikoo/Chatbot-AI.git
+git clone https://github.com/Makiikoo/ChatBot-Finalizado.git
 cd Chatbot-AI
 ```
 
